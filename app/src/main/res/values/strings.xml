@@ -3,4 +3,6 @@
     <string name="myName">Abdul Latif</string>
     <string name="myEmail">alatif303@gmail.com</string>
     <string name="myGithub">github.com/Latifly</string>
+    <string name="details">details</string>
+    <string name="book_img">book-img</string>
 </resources>
