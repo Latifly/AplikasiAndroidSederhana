@@ -5,4 +5,5 @@
     <string name="myGithub">github.com/Latifly</string>
     <string name="details">details</string>
     <string name="book_img">book-img</string>
+    <string name="app_title">Book List App</string>
 </resources>
