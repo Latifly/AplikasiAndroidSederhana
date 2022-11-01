@@ -6,4 +6,6 @@
     <string name="details">details</string>
     <string name="book_img">book-img</string>
     <string name="app_title">Book List App</string>
+    <string name="about_me">about me</string>
+    <string name="share">Share</string>
 </resources>

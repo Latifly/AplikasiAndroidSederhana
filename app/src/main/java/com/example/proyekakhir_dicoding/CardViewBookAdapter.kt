@@ -1,14 +1,18 @@
 package com.example.proyekakhir_dicoding
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.view.menu.ActionMenuItemView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.example.proyekakhir_dicoding.BookDetailPageActivity.Companion.EXTRA_BOOK
 
 class CardViewBookAdapter(private val listBook: ArrayList<Book>) :
     RecyclerView.Adapter<CardViewBookAdapter.CardViewHolder>() {
@@ -33,6 +37,13 @@ class CardViewBookAdapter(private val listBook: ArrayList<Book>) :
         holder.tvName.text = book.name
         holder.tvAuthor.text = book.author
 
+        holder.btnDetail.setOnClickListener { v ->
+            val intent = Intent(v.context, BookDetailPageActivity::class.java)
+            intent.putExtra(EXTRA_BOOK,book)
+            v.context.startActivity(intent)
+
+        }
+
     }
 
     override fun getItemCount(): Int {
@@ -43,6 +54,7 @@ class CardViewBookAdapter(private val listBook: ArrayList<Book>) :
         var ivCover: ImageView = itemView.findViewById(R.id.iv_bookPhoto)
         var tvName: TextView = itemView.findViewById(R.id.tv_bookName)
         var tvAuthor: TextView = itemView.findViewById(R.id.tv_bookAuthor)
+        var btnDetail: Button = itemView.findViewById(R.id.bt_detail)
     }
 
 }

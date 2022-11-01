@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyekAkhirDicoding">
         <activity
-            android:name=".MainActivity"
+            android:name=".BookDetailPageActivity"
             android:exported="false"
-            />
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".AboutPage"
             android:exported="false"

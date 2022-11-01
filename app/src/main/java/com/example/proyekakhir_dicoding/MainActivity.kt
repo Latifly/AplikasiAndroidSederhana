@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.action_button, menu)
+        menuInflater.inflate(R.menu.action_aboutme, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             R.id.action_about -> {
                 val moveIntent = Intent(this@MainActivity, AboutPage::class.java)
                 startActivity(moveIntent)
+
             }
         }
         return super.onOptionsItemSelected(item)
