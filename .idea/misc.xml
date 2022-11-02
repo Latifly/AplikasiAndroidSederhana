@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/layout/activity_about_page.xml" value="0.25" />
-        <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/layout/activity_book_detail_page.xml" value="0.1" />
+        <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/layout/activity_book_detail_page.xml" value="0.25" />
         <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/layout/book_card.xml" value="0.33" />
+        <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/menu/action_aboutme.xml" value="0.1046875" />
         <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/menu/action_button.xml" value="0.1" />
         <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/menu/action_share.xml" value="0.15677083333333333" />
         <entry key="..\:/projek/AndroidStudioProjects/ProyekAkhirDicoding/app/src/main/res/menu/button_about.xml" value="0.22447916666666667" />

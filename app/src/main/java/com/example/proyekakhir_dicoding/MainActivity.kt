@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar?.title = "Book List"
+
         rvBook = findViewById(R.id.rv_list_book)
         rvBook.setHasFixedSize(true)
 
